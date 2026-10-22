@@ -9,7 +9,7 @@ We work on AI whose memory, learning, reasoning and self-correction are built in
 | Programme | Status | Where |
 |---|---|---|
 | **Tree-Memory architecture** — log-time certified memory, no context window | Validated on a chess memory world; language-model conversion in research | [`tree-memory/`](tree-memory/) |
-| **Ternary-100M** — small language model with weights in {−1, 0, +1} | In research | coming |
+| **Ternary-SLM** — small language model (~47M) with hybrid ternary weights: bucket {−1, 0, +1} plus exact outliers | Prototype stage; design and data plan documented | [`ternary-slm/`](ternary-slm/) |
 | **SHVQ-LR** — codebook + low-rank-residual weight compression | Prototype | coming |
 | **Graph-Compressed Embeddings (GCE)** | Coming soon | coming |
 
